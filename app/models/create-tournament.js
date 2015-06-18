@@ -4,8 +4,12 @@ export default DS.Model.extend({
   toJSON: function(){
       var data = this._super();
 
-      var tournySeriesName = this.get('tournamentName.id');
-      if()
+      var tournySeriesName = this.get('WSOP.id');
+      if(tournySeriesName) {
+        data.set('WSOP', {
+          className:'tournamentName'
+        });
+      }
 
 
 
