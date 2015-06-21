@@ -10,6 +10,6 @@ export function initialize(/*container, application*/) {
 }
 
 export default {
-  name: 'parse-tokens',
+  name: 'parse',
   initialize: initialize
 };
