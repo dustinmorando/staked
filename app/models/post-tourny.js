@@ -6,10 +6,7 @@ export default DS.Model.extend({
   BuyIn: DS.attr('number'),
   EventName: DS.attr('string'),
   TournamentDate: DS.attr('date'),
-  url: function() {
-    return 'https://api.parse.com/1/classes/WSOP';
-  }
-
+  
 });
 
 
