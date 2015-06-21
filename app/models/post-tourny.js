@@ -7,8 +7,8 @@ export default DS.Model.extend({
   EventName: DS.attr('string'),
   TournamentDate: DS.attr('date'),
   url: function() {
-    return 'http://www.amazon.com/gp/product/'+this.get('amazon_id')+'/adamfortuna_20';
-  }.property('amazon_id')
+    return 'https://api.parse.com/1/classes/WSOP';
+  }
 
 });
 
